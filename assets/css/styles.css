@@ -138,7 +138,7 @@ a.dotted-link:hover {
   display: none;
   height: 50px;
   width: 100%;
-  background-color:grey;
+  background-color:#778492;
   position: fixed;
   top: 0;
   z-index: 2;
@@ -169,7 +169,6 @@ a.dotted-link:hover {
   font-size: 20px;
   padding-top: 8px;
 }
-/* ======= Sections======= */
 .contentP{
   text-indent: 50px;
 }
@@ -194,8 +193,6 @@ a.dotted-link:hover {
   margin-right: 5px;
   font-size: 14px;
 }
-/* About Section */
-/* Latest Section */
 .latest .item {
   margin-bottom: 30px;
 }
@@ -286,7 +283,6 @@ a.dotted-link:hover {
 .latest .featured-image .ribbon .text:after {
   right: 0;
 }
-/* Projects Section */
 .projects .item {
   margin-bottom: 30px;
 }
