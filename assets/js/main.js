@@ -16,11 +16,11 @@ jQuery(document).ready(function($) {
     });
    
 // contact me slide
-    $(".btn-cta-primary").click(function() {
-    $('html, body').animate({
-        scrollTop: $(".content").offset().top
-    }, 1500);
-});
+//     $(".btn-cta-primary").click(function() {
+//     $('html, body').animate({
+//         scrollTop: $(".scrollHere").offset().top
+//     }, 1500);
+// });
 
 // fixed header
 $(document).scroll(function() {
