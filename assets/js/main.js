@@ -33,7 +33,7 @@ $(document).scroll(function() {
 });
 
 
-// this is for getting screen size! 
+// this is for getting screen size!
 
 // function heightDetect() {
 //         $(".background img").css("height", $(window).height());
