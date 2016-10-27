@@ -301,7 +301,7 @@ a.dotted-link:hover {
   color: #5f6b77;
 }
 .ProjectPictureOne{
-  background-size: 100% 100%;
+  background-size: 90% 100%;
   background-image: url('Bakers.jpg');
   width: 100%;
   height: 400px;
@@ -309,7 +309,7 @@ a.dotted-link:hover {
   margin-top: 23px;
 }
 .ProjectPictureThree{
-  background-size: 100% 100%;
+  background-size: 90% 100%;
   background-image: url('ytspaces.jpg');
   width: 100%;
   height: 400px;
@@ -317,7 +317,7 @@ a.dotted-link:hover {
   margin-top: 23px;
 }
 .ProjectPictureTwo{
-  background-size: 100% 100%;
+  background-size: 90% 100%;
   background-image: url('ytcreator.jpg');
   width: 100%;
   height: 400px;
@@ -521,6 +521,30 @@ a.dotted-link:hover {
   .fixedHeader{
   text-align: center; 
   }
+  .ProjectPictureOne{
+  background-size: 198% 100%;
+  background-image: url('Bakers.jpg');
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  margin-top: 23px;
+}
+.ProjectPictureThree{
+  background-size: 198% 100%;
+  background-image: url('ytspaces.jpg');
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  margin-top: 23px;
+}
+.ProjectPictureTwo{
+  background-size: 198% 100%;
+  background-image: url('ytcreator.jpg');
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  margin-top: 23px;
+}
 }
 @media (min-width: 1400px) {
   .container {
