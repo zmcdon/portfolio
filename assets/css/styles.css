@@ -459,6 +459,38 @@ a.dotted-link:hover {
 .list ul li a:hover {
   color: #49515a;
 }
+.ProjectPictureOne{
+  background-size: 100% 100%;
+  background-image: url('Bakers.jpg');
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  margin-top: 23px;
+}
+.ProjectPictureThree{
+  background-size: 100% 100%;
+  background-image: url('ytspaces.jpg');
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  margin-top: 23px;
+}
+.ProjectPictureTwo{
+  background-size: 100% 100%;
+  background-image: url('ytcreator.jpg');
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  margin-top: 23px;
+}
+.ProjectPictureFour{
+  background-size: 100% 100%;
+  background-image: url('oti.jpg');
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  margin-top: 23px;
+}
 /* Credits */
 .credits ul li {
   margin-bottom: 10px;
@@ -521,30 +553,7 @@ a.dotted-link:hover {
   .fixedHeader{
   text-align: center; 
   }
-  .ProjectPictureOne{
-  background-size: 198% 100%;
-  background-image: url('Bakers.jpg');
-  width: 100%;
-  height: 400px;
-  margin: auto;
-  margin-top: 23px;
-}
-.ProjectPictureThree{
-  background-size: 198% 100%;
-  background-image: url('ytspaces.jpg');
-  width: 100%;
-  height: 400px;
-  margin: auto;
-  margin-top: 23px;
-}
-.ProjectPictureTwo{
-  background-size: 198% 100%;
-  background-image: url('ytcreator.jpg');
-  width: 100%;
-  height: 400px;
-  margin: auto;
-  margin-top: 23px;
-}
+  
 }
 @media (min-width: 1400px) {
   .container {
