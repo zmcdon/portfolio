@@ -365,7 +365,7 @@ a.dotted-link:hover {
 /* Info Section */
 .info .fa {
   margin-right: 15px;
-  color: #ccd1d6;
+  color: #545e69;
 }
 .info .fa.fa-envelope-o {
   font-size: 14px;
@@ -491,6 +491,15 @@ a.dotted-link:hover {
   margin: auto;
   margin-top: 23px;
 }
+.cross{
+  height: 50px;
+  width: 50px;
+  background-image: url('cross.gif');
+  background-size: 100% 100%;
+  float: right;
+  top: 0;
+  margin-top: -30px;
+}
 /* Credits */
 .credits ul li {
   margin-bottom: 10px;
@@ -512,8 +521,9 @@ a.dotted-link:hover {
   background: #32383e;
   color: #fff;
   padding: 10px 0;
-  height: 50px;
+  height: 75px;
   width: 100%;
+  overflow: hidden;
 }
 .footer .copyright {
   line-height: 1.6;
