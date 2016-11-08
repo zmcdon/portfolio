@@ -159,9 +159,9 @@ a.dotted-link:hover {
   font-weight: bold;
 }
 .profile-image{
-  height: 250px;
-  width: 250px;
-  border-radius: 30%;
+  height: 290px;
+  width: 273px;
+  border-radius: 22%;
   background-size: 100% 100%;
 }
 .header .profile-content .social a:hover {
@@ -170,9 +170,6 @@ a.dotted-link:hover {
 .header .profile-content .social a .fa {
   font-size: 20px;
   padding-top: 8px;
-}
-.contentP{
-  text-indent: 50px;
 }
 .sections-wrapper {
   padding-top: 60px;
@@ -490,15 +487,6 @@ a.dotted-link:hover {
   height: 400px;
   margin: auto;
   margin-top: 23px;
-}
-.cross{
-  height: 50px;
-  width: 50px;
-  background-image: url('cross.gif');
-  background-size: 100% 100%;
-  float: right;
-  top: 0;
-  margin-top: -30px;
 }
 /* Credits */
 .credits ul li {
