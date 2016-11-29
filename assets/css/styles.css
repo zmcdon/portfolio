@@ -428,6 +428,55 @@ a.dotted-link:hover {
   color: #b0b7bf;
   font-weight: 500;
 }
+.codeSchoolLogo{
+  background-image: url('htmlEmails.png');
+  background-size: 100% 100%;
+  height: 75px;
+  width: 75px;
+  margin:auto;
+}
+.GASchoolLogo{
+  background-image: url('GASchoolLogo.png');
+  background-size: 100% 100%;
+  height: 75px;
+  width: 75px;
+  margin:auto;
+}
+.codeSchoolGen{
+  background-image: url('codeSchoolGen.svg');
+  background-size: 100% 100%;
+  height: 75px;
+  width:70%;
+  margin:auto;
+}
+.jsRoadTrip-two{
+  background-image: url('jsRoadTrip-two.png');
+  background-size: 100% 100%;
+  height: 75px;
+  width: 75px;
+  margin:auto;
+}
+.svg{
+  background-image: url('svgLogo.png');
+  background-size: 100% 100%;
+  height: 75px;
+  width: 75px;
+  margin:auto;
+}
+.emt{
+  background-image: url('emt.jpeg');
+  background-size: 100% 100%;
+  height: 75px;
+  width: 75px;
+  margin:auto;
+}
+.nurse{
+  background-image: url('emerg.jpg');
+  background-size: 100% 100%;
+  height: 75px;
+  width: 75px;
+  margin:auto;
+}
 /* Language Section */
 .languages .item {
   margin-bottom: 15px;
