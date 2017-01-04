@@ -537,6 +537,22 @@ a.dotted-link:hover {
   margin: auto;
   margin-top: 23px;
 }
+.ProjectPictureFive{
+  background-size: 100% 100%;
+  background-image: url('ssc1.jpg');
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  margin-top: 23px;
+}
+.ProjectPictureSix{
+  background-size: 100% 100%;
+  background-image: url('ssc2.jpg');
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  margin-top: 23px;
+}
 /* Credits */
 .credits ul li {
   margin-bottom: 10px;
