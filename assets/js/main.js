@@ -1,13 +1,4 @@
-$(document).on('ready', function() 
-  {
-
-    ReactDOM.render (
-        React.createElement(StoryBox),
-        document.getElementById('story-box')
-      );
-
-
-   $('.level-bar-inner').css('width', '0');
+$('.level-bar-inner').css('width', '0');
   // contact me slide #1
     $(".btn-cta-primary").click(function() {
     $('html, body').animate({
