@@ -1,28 +1,3 @@
-class StoryBox extends React.Component {
-  render() {
-    const now = new Date();
-
-
-    return React.createElement('div', [],
-        [
-          React.createElement('h3', { value: 'Stories' }),
-          React.createElement(
-              'p', 
-              { 
-                className: 'lead', 
-              }, 
-              ["Welcome, current time:" + now.toTimeString()]),
-          React.createElement(
-              'p', 
-              { 
-                className: 'lead-two', 
-              }, 
-              ['time section created with React.JS ']),
-        ]);
-  } 
-}
-
-
 $(document).on('ready', function() 
   {
 
