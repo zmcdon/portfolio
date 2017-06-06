@@ -8,7 +8,7 @@ $(document).on('ready', function()
 
 
    $('.level-bar-inner').css('width', '0');
-  // contact me slide
+  // contact me slide #1
     $(".btn-cta-primary").click(function() {
     $('html, body').animate({
         scrollTop: $(".sr-only").offset().top - 87
@@ -35,10 +35,5 @@ $(window).on('load', function() {
         }, 800);
         
     });
-
-});
-
-
-
 
 });
