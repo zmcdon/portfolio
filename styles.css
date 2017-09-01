@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lato', arial, sans-serif;
+  font-family: Raleway, arial, sans-serif;
   color: #434343;
   background: #DAE3E7;
   font-size: 16px;
@@ -92,10 +92,33 @@ a.dotted-link:hover {
   text-decoration: none;
   color: #49515a;
 }
+#story-box{
+  width: 100%;
+  color: black;
+  z-index: 99999;
+}
+.lead{
+  color: black;
+  font-size:16px;
+  z-index: 99999;
+  text-align: center;
+  margin: 10px 0 0 0 ;
+}
+.lead-two{
+  color: black;
+  font-size:10px;
+  z-index: 99999;
+  text-align: center;
+}
+.react-time{
+  width: 100%;
+  height: 37px;
+  background-color: #778492;
+  margin-top: -20px;
+}
 .header {
   padding: 30px 0;
   background: #f5f5f5;
-  border-top: 10px solid #778492;
 }
 .header .btn {
   margin-top: 60px;
@@ -138,15 +161,17 @@ a.dotted-link:hover {
   display: none;
   height: 50px;
   width: 100%;
-  background-color:#778492;
+  background-color: white;
   position: fixed;
   top: 0;
   z-index: 2;
+  border-bottom: 1px solid black;
   overflow: hidden;
+  font-family: Raleway;
 }
 .fixedHeader ul{
   text-align: center;
-  margin-top: 7px; 
+  margin-top: 10px; 
 }
 .fixedHeader li{
   list-style-type: none;
@@ -157,9 +182,9 @@ a.dotted-link:hover {
   font-weight: bold;
 }
 .profile-image{
-  height: 250px;
-  width: 250px;
-  border-radius: 30%;
+  height: 290px;
+  width: 273px;
+  border-radius: 22%;
   background-size: 100% 100%;
 }
 .header .profile-content .social a:hover {
@@ -168,9 +193,6 @@ a.dotted-link:hover {
 .header .profile-content .social a .fa {
   font-size: 20px;
   padding-top: 8px;
-}
-.contentP{
-  text-indent: 50px;
 }
 .sections-wrapper {
   padding-top: 60px;
@@ -299,7 +321,7 @@ a.dotted-link:hover {
   color: #5f6b77;
 }
 .ProjectPictureOne{
-  background-size: 100% 100%;
+  background-size: 90% 100%;
   background-image: url('Bakers.jpg');
   width: 100%;
   height: 400px;
@@ -307,7 +329,7 @@ a.dotted-link:hover {
   margin-top: 23px;
 }
 .ProjectPictureThree{
-  background-size: 100% 100%;
+  background-size: 90% 100%;
   background-image: url('ytspaces.jpg');
   width: 100%;
   height: 400px;
@@ -315,24 +337,8 @@ a.dotted-link:hover {
   margin-top: 23px;
 }
 .ProjectPictureTwo{
-  background-size: 100% 100%;
+  background-size: 90% 100%;
   background-image: url('ytcreator.jpg');
-  width: 100%;
-  height: 400px;
-  margin: auto;
-  margin-top: 23px;
-}
-.ProjectPictureFour{
-  background-size: 100% 100%;
-  background-image: url('ssc1.jpg');
-  width: 100%;
-  height: 400px;
-  margin: auto;
-  margin-top: 23px;
-}
-.ProjectPictureFive{
-  background-size: 100% 100%;
-  background-image: url('ssc2.jpg');
   width: 100%;
   height: 400px;
   margin: auto;
@@ -379,7 +385,7 @@ a.dotted-link:hover {
 /* Info Section */
 .info .fa {
   margin-right: 15px;
-  color: #ccd1d6;
+  color: #545e69;
 }
 .info .fa.fa-envelope-o {
   font-size: 14px;
@@ -445,6 +451,55 @@ a.dotted-link:hover {
   color: #b0b7bf;
   font-weight: 500;
 }
+.codeSchoolLogo{
+  background-image: url('htmlEmails.png');
+  background-size: 100% 100%;
+  height: 75px;
+  width: 75px;
+  margin:auto;
+}
+.GASchoolLogo{
+  background-image: url('GASchoolLogo.png');
+  background-size: 100% 100%;
+  height: 75px;
+  width: 75px;
+  margin:auto;
+}
+.codeSchoolGen{
+  background-image: url('codeSchoolGen.svg');
+  background-size: 100% 100%;
+  height: 75px;
+  width:70%;
+  margin:auto;
+}
+.jsRoadTrip-two{
+  background-image: url('jsRoadTrip-two.png');
+  background-size: 100% 100%;
+  height: 75px;
+  width: 75px;
+  margin:auto;
+}
+.svg{
+  background-image: url('svgLogo.png');
+  background-size: 100% 100%;
+  height: 75px;
+  width: 75px;
+  margin:auto;
+}
+.emt{
+  background-image: url('emt.jpeg');
+  background-size: 100% 100%;
+  height: 75px;
+  width: 75px;
+  margin:auto;
+}
+.nurse{
+  background-image: url('emerg.jpg');
+  background-size: 100% 100%;
+  height: 75px;
+  width: 75px;
+  margin:auto;
+}
 /* Language Section */
 .languages .item {
   margin-bottom: 15px;
@@ -473,6 +528,62 @@ a.dotted-link:hover {
 .list ul li a:hover {
   color: #49515a;
 }
+.ProjectPictureOne{
+  background-size: 100% 100%;
+  background-image: url('Bakers.jpg');
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  margin-top: 23px;
+}
+.ProjectPictureThree{
+  background-size: 100% 100%;
+  background-image: url('ytspaces.jpg');
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  margin-top: 23px;
+}
+.ProjectPictureTwo{
+  background-size: 100% 100%;
+  background-image: url('ytcreator.jpg');
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  margin-top: 23px;
+}
+.ProjectPictureFour{
+  background-size: 100% 100%;
+  background-image: url('oti.jpg');
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  margin-top: 23px;
+}
+.ProjectPictureFive{
+  background-size: 100% 100%;
+  background-image: url('ssc1.jpg');
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  margin-top: 23px;
+}
+.ProjectPictureSix{
+  background-size: 100% 100%;
+  background-image: url('ssc2.jpg');
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  margin-top: 23px;
+}
+.goog_img{
+  background-size: 100% 100%;
+  background-image: url('google-two.jpg');
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  margin-top: 23px;
+}
 /* Credits */
 .credits ul li {
   margin-bottom: 10px;
@@ -494,8 +605,9 @@ a.dotted-link:hover {
   background: #32383e;
   color: #fff;
   padding: 10px 0;
-  height: 50px;
+  height: 75px;
   width: 100%;
+  overflow: hidden;
 }
 .footer .copyright {
   line-height: 1.6;
@@ -527,6 +639,61 @@ a.dotted-link:hover {
   }
   .project-image {
     margin-bottom: 15px;
+  }
+  .fixedHeader ul{
+  text-align: center;
+  font-size: 13px; 
+  }
+  .fixedHeader{
+  text-align: center; 
+  }
+  .ProjectPictureOne{
+    background-size: 100% 100%;
+    background-image: url('Bakers.jpg');
+    width: 100%;
+    height: 175px;
+    margin: auto;
+    margin-top: 23px;
+  }
+  .ProjectPictureThree{
+    background-size: 100% 100%;
+    background-image: url('ytspaces.jpg');
+    width: 100%;
+    height: 175px;
+    margin: auto;
+    margin-top: 23px;
+  }
+  .ProjectPictureTwo{
+    background-size: 100% 100%;
+    background-image: url('ytcreator.jpg');
+    width: 100%;
+    height: 175px;
+    margin: auto;
+    margin-top: 23px;
+  }
+  .ProjectPictureFour{
+    background-size: 100% 100%;
+    background-image: url('oti.jpg');
+    width: 100%;
+    height: 175px;
+    margin: auto;
+    margin-top: 23px;
+  }
+  .ProjectPictureFive{
+    background-size: 100% 100%;
+    background-image: url('ssc1.jpg');
+    width: 100%;
+    height: 175px;
+    margin: auto;
+    margin-top: 23px;
+  }
+  .ProjectPictureSix{
+    background-size: 100% 100%;
+    background-image: url('ssc2.jpg');
+    width: 100%;
+    height: 175px;
+    margin: auto;
+    margin-top: 23px;
   }
 }
 @media (min-width: 1400px) {
