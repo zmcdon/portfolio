@@ -182,8 +182,8 @@ a.dotted-link:hover {
   font-weight: bold;
 }
 .profile-image{
-  height: 290px;
-  width: 273px;
+  height: 270px;
+  width: 253px;
   border-radius: 22%;
   background-size: 100% 100%;
 }
@@ -203,7 +203,7 @@ a.dotted-link:hover {
 }
 .section .section-inner {
   background: #fff;
-  padding: 30px;
+  padding: 24px;
 }
 .section .heading {
   margin-top: 0;
