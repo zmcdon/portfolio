@@ -329,7 +329,7 @@ a.dotted-link:hover {
   margin-top: 23px;
 }
 .ProjectPictureThree{
-  background-size: 90% 100%;
+  background-size: 100% 100%;
   background-image: url('ytspaces.jpg');
   width: 100%;
   height: 400px;
@@ -345,10 +345,26 @@ a.dotted-link:hover {
   margin-top: 23px;
 }
 .zng_home{
-  background-size: 90% 100%;
+  background-size: 100% 100%;
   background-image: url('zng_home.png');
   width: 100%;
-  height: 400px;
+  height: 350px;
+  margin: auto;
+  margin-top: 23px;
+}
+.zng_2{
+  background-size: 100% 100%;
+  background-image: url('zng_2.png');
+  width: 100%;
+  height: 350px;
+  margin: auto;
+  margin-top: 23px;
+}
+.zng_port{
+  background-size: 100% 100%;
+  background-image: url('zng_port.png');
+  width: 100%;
+  height: 350px;
   margin: auto;
   margin-top: 23px;
 }
@@ -540,47 +556,47 @@ a.dotted-link:hover {
   background-size: 100% 100%;
   background-image: url('Bakers.jpg');
   width: 100%;
-  height: 400px;
+  height: 330px;
   margin: auto;
   margin-top: 23px;
 }
 .ProjectPictureThree{
   background-size: 100% 100%;
   background-image: url('ytspaces.jpg');
-  width: 100%;
-  height: 400px;
+  width: 98%;
+  height: 350px;
   margin: auto;
   margin-top: 23px;
 }
 .ProjectPictureTwo{
   background-size: 100% 100%;
   background-image: url('ytcreator.jpg');
-  width: 100%;
-  height: 400px;
+  width: 98%;
+  height: 350px;
   margin: auto;
   margin-top: 23px;
 }
 .ProjectPictureFour{
   background-size: 100% 100%;
   background-image: url('oti.jpg');
-  width: 100%;
-  height: 400px;
+  width: 94%;
+  height: 300px;
   margin: auto;
   margin-top: 23px;
 }
 .ProjectPictureFive{
   background-size: 100% 100%;
   background-image: url('ssc1.jpg');
-  width: 100%;
-  height: 400px;
+  width: 97%;
+  height: 350px;
   margin: auto;
   margin-top: 23px;
 }
 .ProjectPictureSix{
   background-size: 100% 100%;
   background-image: url('ssc2.jpg');
-  width: 100%;
-  height: 400px;
+  width: 97%;
+  height: 350px;
   margin: auto;
   margin-top: 23px;
 }
@@ -588,7 +604,7 @@ a.dotted-link:hover {
   background-size: 100% 100%;
   background-image: url('google-two.jpg');
   width: 100%;
-  height: 401px;
+  height: 359px;
   margin: auto;
   margin-top: 23px;
 }
