@@ -528,6 +528,22 @@ a.dotted-link:hover {
 .list ul li a:hover {
   color: #49515a;
 }
+.abOne{
+    background-size: 100% 100%;
+    background-image: url('abOne.png');
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    margin-top: 23px;
+  }
+  .abTwo{
+    background-size: 100% 100%;
+    background-image: url('abTwo.png');
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    margin-top: 23px;
+  }
 .ProjectPictureOne{
   background-size: 100% 100%;
   background-image: url('Bakers.jpg');
