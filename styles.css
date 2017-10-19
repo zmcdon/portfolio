@@ -647,6 +647,22 @@ a.dotted-link:hover {
   .fixedHeader{
   text-align: center; 
   }
+  .abOne{
+    background-size: 100% 100%;
+    background-image: url('abOne.jpg');
+    width: 100%;
+    height: 175px;
+    margin: auto;
+    margin-top: 23px;
+  }
+  .abTwo{
+    background-size: 100% 100%;
+    background-image: url('abTwo.jpg');
+    width: 100%;
+    height: 175px;
+    margin: auto;
+    margin-top: 23px;
+  }
   .ProjectPictureOne{
     background-size: 100% 100%;
     background-image: url('Bakers.jpg');
