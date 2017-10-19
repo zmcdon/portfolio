@@ -649,7 +649,7 @@ a.dotted-link:hover {
   }
   .abOne{
     background-size: 100% 100%;
-    background-image: url('abOne.jpg');
+    background-image: url('abOne.png');
     width: 100%;
     height: 175px;
     margin: auto;
@@ -657,7 +657,7 @@ a.dotted-link:hover {
   }
   .abTwo{
     background-size: 100% 100%;
-    background-image: url('abTwo.jpg');
+    background-image: url('abTwo.png');
     width: 100%;
     height: 175px;
     margin: auto;
