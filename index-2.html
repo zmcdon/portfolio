@@ -16,10 +16,20 @@
 
 <body>
 
-<nav>
-    <p>new test page</p>
+<nav>Hi, Zach McDonnell. You have logged on at <span id="currentDate"></span>.</nav>
 
-</nav>
+<main>
+
+<p>send email</p>
+
+<form class="contact-form" action="contactform.php" method="post">
+    <input id="name" type="text" name="name" placeholder="full name">
+    <input id="email" type="text" name="mail" placeholder="your email ">
+    <input id="subject" type="text" name="subjecy" placeholder="subject">
+    <textarea id="messageText" name="message" placeholder="message"></textarea>
+    <button id="sendBtn" type="submit" name="submit">send email</button>
+
+</form>
 
 
 </body>
