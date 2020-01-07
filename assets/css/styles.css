@@ -17,7 +17,7 @@ h6 {
   color: #778492;
 }
 a {
-  color:#13e2ec;
+  color:#3893bd;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -26,7 +26,7 @@ a {
 a:hover {
   text-decoration: underline;
   color: #5f6b77;
-  color: #13e2ec;
+  color: #3893bd;
 }
 a:focus {
   text-decoration: none;
@@ -51,16 +51,16 @@ a.btn:focus {
 }
 a.btn-cta-primary,
 .btn-cta-primary {
-  background: #13e2ec;
-  border: 1px solid #13e2ec;
+  background: #3893bd;
+  border: 1px solid #3893bd;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
 }
 a.btn-cta-primary:hover,
 .btn-cta-primary:hover {
-  background: #13e2ec;
-  border: 1px solid #13e2ec;
+  background: #3893bd;
+  border: 1px solid #3893bd;
   color: #fff;
 }
 a.btn-cta-secondary,
@@ -165,15 +165,27 @@ a.dotted-link:hover {
   position: fixed;
   top: 0;
   z-index: 2;
-  border-bottom: 1px solid black;
+  border-bottom: 3px solid #fbfbfb;
   overflow: hidden;
   font-family: Raleway;
 }
-.fixedHeader ul{
+.showFixedHeader{
+  display: inline-block;
+  height: 50px;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  border-bottom: 3px solid #fbfbfb;
+  overflow: hidden;
+  font-family: Raleway;
+}
+.showFixedHeader ul{
   text-align: center;
   margin-top: 10px; 
 }
-.fixedHeader li{
+.showFixedHeader li{
   list-style-type: none;
   display: inline;
   width: 30%;
@@ -369,18 +381,21 @@ a.dotted-link:hover {
   margin-top: 23px;
 }
 .seperate{
-  border-top: 2px solid #13e2ec;
+  border-top: 2px solid #3893bd;
   width: 95%;
   margin: auto;
   margin-top: 55px;
   margin-bottom: 25px;
 }
 .goToCenter:hover{
-  color: #13e2ec;
+  color: #3893bd;
 }
 .goToCenter{
   text-align: center;
   padding: 7px;
+}
+.fa-graduation-cap{
+  padding: 0px 5px 5px 5px;
 }
 /* Work Section */
 .experience .item {
@@ -451,7 +466,7 @@ a.dotted-link:hover {
 }
 .skills .skillset .level-bar-inner {
   height: 15px;
-  background:#13e2ec;
+  background:#3893bd;
 }
 /* Education section */
 .education .item {
@@ -538,7 +553,7 @@ a.dotted-link:hover {
   margin-bottom: 0;
 }
 .languages .item .fa {
-  color:#13e2ec;
+  color:#3893bd;
 }
 .list ul li {
   margin-bottom: 10px;
