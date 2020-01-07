@@ -7,6 +7,7 @@ $('.level-bar-inner').css('width', '0');
 
   // fixed header
   $(document).on('scroll', function() {
+    console.log("fixed header function running..")
     var y = $(this).scrollTop();
     if (y > 245) {
       $('.fixedHeader').fadeIn('slow');
@@ -28,3 +29,65 @@ $(window).on('load', function() {
     });
 
 });
+
+
+$(document).on('mousedown', function(event){
+  event.stopPropagation();
+
+
+  if(event.which == 1){
+    console.log(event.pageY, event.pageX);
+
+    $('.context').css({
+      top: event.pageY,
+      left: event.pageX
+    });
+
+    $('.context').show()
+  }
+
+
+});
+
+
+
+
+var today = new Date();
+var dd = today.getDate();
+
+var mm = today.getMonth()+1; 
+var yyyy = today.getFullYear();
+if(dd<10) 
+{
+    dd='0'+dd;
+} 
+
+if(mm<10) 
+{
+    mm='0'+mm;
+} 
+today = dd+'/'+mm+'/'+yyyy;
+
+
+fixedHeader = document.getElementById("fixedHeader");
+
+var myScroll = function() {
+  var y = window.scrollY;
+  console.log(y);
+  if (y >= 282) {
+    fixedHeader.className = "bottomMenu showFixedHeader"
+  } else {
+    fixedHeader.className = "bottomMenu fixedHeader"
+  }
+};
+
+window.addEventListener("scroll", myScroll);
+
+
+
+
+
+
+
+
+
