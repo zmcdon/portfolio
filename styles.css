@@ -1,5 +1,5 @@
 body {
-  font-family: Raleway, arial, sans-serif;
+  font-family: Montserrat, arial, sans-serif;
   color: #434343;
   background: #DAE3E7;
   font-size: 16px;
@@ -321,9 +321,9 @@ a.dotted-link:hover {
   margin-bottom: 30px;
 }
 .projects .item .title {
-  font-size: 16px;
+  font-size: 20px;
   margin-top: 0;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   line-height: 1.5;
 }
 .projects .item .title a {
