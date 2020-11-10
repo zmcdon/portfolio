@@ -194,8 +194,8 @@ a.dotted-link:hover {
   font-weight: bold;
 }
 .profile-image{
-  height: 250px;
-  border-radius: 20%;
+  height: 220px;
+  border-radius: 15%;
   background-size: 100% 100%;
 }
 .header .profile-content .social a:hover {
