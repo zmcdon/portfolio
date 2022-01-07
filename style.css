@@ -317,7 +317,7 @@ a.dotted-link:hover {
   right: 0;
 }
 .projects .item {
-  margin-bottom: 30px;
+  margin-bottom: 55px;
 }
 .projects .item .title {
   font-size: 20px;
@@ -838,4 +838,6 @@ a.dotted-link:hover {
   .container {
     width: 1360px;
   }
+  
 }
+
